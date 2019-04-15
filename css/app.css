@@ -1,0 +1,63 @@
+/* foundation styles */
+div.callout {
+  border-bottom: none;
+}
+
+ul.footer {
+  margin-left: -1em;
+}
+
+.top-bar, .top-bar ul {
+  background-color: #008fb4;
+}
+
+a.menuHead, .dropdown.menu>li.is-dropdown-submenu-parent>a {
+  color: white;
+}
+
+img.logoHead {
+  height: 3em;
+  max-width: 6em;
+}
+
+.dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+  border-color:#fefefe transparent transparent;
+}
+
+ul.submenu {
+  background-color: #fefefe;
+}
+
+/* ui-kit styles */
+#navHeader {
+  background-image: url("../images/Login_FooterBand.png");
+  background-size: cover;
+}
+
+#headerNav a {
+  font-size: 1.1rem;
+}
+
+#navFooter a {
+  font-size: 1rem;
+}
+
+#mainImg {
+  background-image: url("../images/Login_Background_Splash.jpg");
+}
+
+#overlay {
+  background-color: hsla(0,0%,100%,.79); 
+}
+
+#dataInsidersO {
+  color: #666;
+}
+
+.uk-button-danger {
+  background-color: #f44336;
+}
+
+.uk-button-danger:hover {
+  background-color: #da190b;
+}
